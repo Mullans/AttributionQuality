@@ -1,5 +1,7 @@
 # Attribution Quality
 
+[![pypi](https://img.shields.io/pypi/v/attribution-quality)](https://pypi.org/project/attribution-quality/)
+
 This package was designed to both generate explanations for deep learning segmentation models as well as to provide comprehensive metrics for evaluating new explanation methods.
 
 We have included our novel explanation method, Kernel-Weighted Contribution, as well as a number of other XAI methods adapted for use with segmentation models. With the additional use of our [explanation ground-truth dataset](https://github.com/Mullans/NoduleSeg), we can evaluate the quality of these methods and provide a comprehensive comparison of their performance.
@@ -11,12 +13,12 @@ We have included our novel explanation method, Kernel-Weighted Contribution, as 
 
 Note - We use [mamba](https://github.com/mamba-org/mamba) to install packages, but you can use [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) in the same way if you prefer.
 
-1. Install `attribution_quality` requirements
+1. Install requirements
    1. Either [install torch or build from source](https://pytorch.org/get-started/locally/)
    2. `mamba install -c conda-forge numpy scikit-image tqdm`
-2. Install `attribution_quality`
+2. Install `attribution-quality`
    1. METHOD 1 (recommended)
-      1. `pip install attribution_quality --no-deps`
+      1. `pip install attribution-quality --no-deps`
    2. METHOD 2 (for local development)
       1. `git clone git@github.com:Mullans/AttributionQuality.git`
       2. `cd AttributionQuality`
