@@ -1,8 +1,11 @@
 # Attribution Quality
 
 [![pypi](https://img.shields.io/pypi/v/attribution-quality)](https://pypi.org/project/attribution-quality/)
+[![DOI:10.1117/1.JMI.10.5.054001](http://img.shields.io/badge/DOI-10.1117/1.JMI.10.5.054001-B31B1B.svg)](https://doi.org/10.1117/1.JMI.10.5.054001)
 
-This package was designed to both generate explanations for deep learning segmentation models as well as to provide comprehensive metrics for evaluating new explanation methods.
+This package was designed to both generate explanations for deep learning segmentation models as well as to provide comprehensive metrics for evaluating new explanation methods. The full paper published in the Journal of Medical Imaging that describes and validates these methods can be found either using the DOI shield above or using the following link: 
+
+[Kernel-Weighted Contribution: A Method of Visual Attribution for 3D Deep Learning Segmentation in Medical Imaging](https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-10/issue-5/054001/Kernel-weighted-contribution--a-method-of-visual-attribution-for/10.1117/1.JMI.10.5.054001.short)
 
 We have included our novel explanation method, Kernel-Weighted Contribution, as well as a number of other XAI methods adapted for use with segmentation models. With the additional use of our [explanation ground-truth dataset](https://github.com/Mullans/NoduleSeg), we can evaluate the quality of these methods and provide a comprehensive comparison of their performance.
 
